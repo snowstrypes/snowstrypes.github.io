@@ -1,0 +1,42 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+td:nth-child(1) {
+    width: 3%;
+}
+
+td:nth-child(2) {
+    width: 8%;
+}
+
+td:nth-child(3) {
+    width: 8%;
+}
+
+td:nth-child(4) {
+    width: 35%;
+}
+
+td:nth-child(5) {
+    width: 35%;
+}
+
+th, td {
+    padding: 20px;
+    white-space: pre;
+}
+
+.red {
+    color: red;
+}
+
+textarea {
+    min-width: 65%;
+    min-height: 65px;
+}
+
+input {
+    width: 100%;
+}
